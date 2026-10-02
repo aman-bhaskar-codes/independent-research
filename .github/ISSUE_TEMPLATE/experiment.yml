@@ -1,0 +1,19 @@
+name: Experiment Proposal
+description: Propose a specific experiment within a project.
+title: "[Experiment]: "
+labels: ["experiment"]
+body:
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: What is the falsifiable hypothesis?
+    validations:
+      required: true
+  - type: textarea
+    id: protocol
+    attributes:
+      label: Protocol
+      description: Briefly describe the protocol and controls.
+    validations:
+      required: true

@@ -1,0 +1,12 @@
+name: Writing Idea
+description: Propose a blog, article, or paper.
+title: "[Writing]: "
+labels: ["writing"]
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+      description: What is the writing about?
+    validations:
+      required: true

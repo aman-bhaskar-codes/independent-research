@@ -1,0 +1,19 @@
+name: Research Question
+description: Propose a new research question or programme.
+title: "[Question]: "
+labels: ["research", "question"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why is this question important?
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Specific Question
+      description: What is the specific question to be investigated?
+    validations:
+      required: true
